@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "XiMaLaYaSDK"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "this is the XiMaLaYaSDK for user from Snaillove."
 
 
@@ -47,7 +47,7 @@ Pod::Spec.new do |s|
 
 
 
-  s.source       = { :git => "https://github.com/Snaillove/ios-ximalaya-sdk.git", :tag => "0.0.1" }
+  s.source       = { :git => "https://github.com/Snaillove/ios-ximalaya-sdk.git", :tag => "0.0.2" }
 
 
 
@@ -70,7 +70,7 @@ Pod::Spec.new do |s|
   # s.framework  = "SomeFramework"
   # s.frameworks = "SomeFramework", "AnotherFramework"
 
-  # s.library   = "iconv"
+   s.library   = "z"
   # s.libraries = "iconv", "xml2"
 
 
